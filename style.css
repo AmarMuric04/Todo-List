@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  margin: 0vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+.title {
+  text-decoration: underline;
+  margin-left: 10.3vh;
+  font-size: 5vh;
+  font-weight: 700;
+  display: inline;
+}
+.title-two {
+  display: inline;
+  font-size: 2.2vh;
+  color: green;
+  font-weight: bold;
+  border-left: 0.5vh solid green;
+}
+.title-wrapper {
+  padding: 0vh 4vh;
+  display: flex;
+  justify-content: space-around;
+}
+.rotated {
+  transform: rotate(-90deg);
+}
+#main {
+  margin-top: 10vh;
+  border-radius: 1vh;
+  background-color: gray;
+  padding: 5vh;
+  padding-bottom: 2vh;
+  box-shadow: 0vh 1vh 1vh rgb(34, 34, 34);
+}
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 2vh;
+  row-gap: 2vh;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.js-delete-todo-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
